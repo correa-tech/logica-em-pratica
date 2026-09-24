@@ -1,3 +1,5 @@
+import { lessons, program, quiz } from "./lessons.js";
+
 // Organização e exercícios próprios, orientados pelos tópicos do glossário da disciplina.
 const extraLessons = [
   {
@@ -630,3 +632,5 @@ const exercises = [
     ],
   ),
 ];
+
+export { degrauNames, exercises };

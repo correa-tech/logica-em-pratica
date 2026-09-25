@@ -996,3 +996,5 @@ const lessons = [
     ],
   },
 ];
+
+export { lessons, program, quiz };

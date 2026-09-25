@@ -8,8 +8,17 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs"
+    "dev": "vite",
+    "build": "vite build",
+    "check": "vite build && node scripts/check.mjs"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^7.18.4",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest"
   }
 }
